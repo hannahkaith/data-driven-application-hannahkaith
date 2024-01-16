@@ -24,7 +24,7 @@ quesFrame = Frame(app)
 
 for frame in (frame1, frame2, frame3, quesFrame):
     frame.place(y=0,x=0,height=600,width=750)
-show_pages(quesFrame) # to showcase which frame goes on top 
+show_pages(frame1) # to showcase which frame goes on top 
 
 
 #   to get API data
