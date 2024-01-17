@@ -35,7 +35,7 @@ def get_data():
     data = response.json()
 
     # to print the question
-    ques = data["results"][0]['question'].replace("&quot;", '"').replace("&#039;", '\'').replace("&rsquo;", "'").replace("&aring;","å")  
+    ques = data["results"][0]['question'].replace("&quot;", '"').replace("&#039;", '\'').replace("&rsquo;", "'").replace("&aring;","å").replace("&Aring;","Å")  
         # to replace certain words with its corresponding symbols
     
     # Difficulty of the questions
